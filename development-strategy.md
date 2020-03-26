@@ -1,39 +1,32 @@
-# Numbery or NaNy: development strategy
+# 05 Flex-Panel-Gallery: development strategy
 
 Building this site one step at a time
 
 ## 0. Setup
 
-> - What files do you need to create?
-> - What are you putting in each file?
+> - We need to create 3 files for the site itself: for DOM, for styles and for script.
+> - We need to create 2 other files describing the project: Readme.md and development-strategy.md.
 
-## 1. Data & Log
+## 1. User Story: Create index.html
 
-> - which files of code do you need to create/change?
-> - what are you changing in each file?
+> - We need a container where all photos should be located
+> - We need 5 blocks describing as `<DIV>` elements inside the container
+> - We need to create a separate branch `index` for index.html
 
-## 2. Init
+## 2. User Story: Create styles.css
 
-> - which files of code do you need to change?
-> - what are you changing in them?
+> - We need to create separate styles for html. body, container for 5 elements and foe each element depending on the state in which they are.
+> - We need to create a separate branch `css` for style.css
 
-## 3. User Story: Set Active
+## 3. User Story: Create script.js
 
-**A user can select which list of strings to display on the screen**
+> - We need to create listeners for two states of `<div>` panels and depending on it apply appropriate set of styles for this and for neighborhood elements.
+> - We need to create a separate branch `script` for script.js
 
-> - which files of code do you need to change?
-> - what are you changing in them?
+## 4. User Story: Create Readme.md
 
-## 4. User Story: Add String
+> - We need to create readme.md describing the structure of all files inside this project.
 
-**A user can add a string to the String Sorter. The string is properly sorted and the active list is re-rendered (if it was changed)**
+## 5. User Story: Create development-strategy.md
 
-> - which files of code do you need to change?
-> - what are you changing in them?
-
-## 5. User Story: Reset
-
-**A user can set the state and DOM back to it's initial values**
-
-> - which files of code do you need to change?
-> - what are you changing in them?
+> - We need to create development-strategy.md describing the set of user stories in which we divided an entire project.

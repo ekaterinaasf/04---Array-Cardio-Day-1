@@ -1,5 +1,7 @@
 # 05 Flex-Panel-Gallery
 
+Live site should be available [here](https://ekaterinaasf.github.io/05Flex-Panel-Gallery/)
+
 ## DOM
 
 | tag name | attributes             | role                                  |
